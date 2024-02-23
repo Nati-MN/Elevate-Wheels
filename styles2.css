@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+font-family: 'Arial', sans-serif;
+background: url('mountain.jpg') center/cover no-repeat fixed;
+       color: #000000;
+   text-align: center;
+   position: relative;
+   }
+   
+   body::before {
+   content: '';
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+   z-index: -1;
+   }
+   
+   header {
+        padding: 50px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+    color: #c8ddf0;
+   }
+   
+   h1 {
+   font-size: 4em;
+   font-weight: 700;
+   margin-bottom: 20px;
+    background: linear-gradient(100deg, #2d437dc6, #2d437dc6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   display: inline-block;
+   }
+   
+   .section {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 50px;
+    text-align: center;
+    color: #FFA500;
+   }
+   
+   .section h2 {
+    font-size: 3em;
+    font-weight: 700;
+   margin-bottom: 20px;
+        color: #4169E1;
+   }
+   
+   .features {
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   
+   .feature {
+   flex: 1;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+   text-align: left;
+       }
+   
+   .feature h3 {
+   font-size: 2.5em;
+   font-weight: 700;
+    margin-bottom: 15px;
+   color: #FFD700;
+   }
+   
+   .feature p {
+    font-size: 1.4em;
+    color: #c8ddf0;
+   }
+   
+   #colors-section ul {
+    list-style: none;
+   padding: 0;
+   }
+   
+   #colors-section li {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #b82525;
+   }
+   
+   footer {
+   text-align: center;
+   padding: 20px;
+   background-color: #6a6aee68;
+    color: #ffffff;
+   }
+   .tiktok-button {
+     background-color: transparent; 
+    border: none;
+    cursor: pointer;
+}
+
+.tiktok-button img {
+    width: auto; 
+    height: 80px; 
+}
